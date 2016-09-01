@@ -1,0 +1,483 @@
+.clearfix:after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+ul
+{
+    margin: 0;
+}
+
+header
+{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+nav
+{
+    background: transparent;
+    height: 50px;
+}
+
+.article nav
+{
+    background: #373259;
+}
+
+#banner
+{
+    background: rgba(0, 0, 0, 0.01);
+    height: 960px;
+}
+
+.article #banner
+{
+    height: 300px;
+    background: url("../images/banner01.png") rgba(0, 0, 0, 0.4);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner button a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 auto;
+    width: 100%;
+    display: inline-block;
+}
+
+nav ul
+{
+    list-style: none;
+    margin: 0;
+    float: right;
+}
+
+nav ul li, nav .logo
+{
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+nav a
+{
+    line-height: inherit;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;  
+    color: #fff;
+}
+
+nav .logo
+{
+    float: left;
+    margin-left: 10px;
+}
+
+/*nav a*/
+/*{*/
+    /*text-decoration: none;*/
+/*}*/
+
+#banner .inner
+{
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 160px;
+}
+
+.article #banner .inner
+{
+    top: 30px;
+    margin-left: 8%;
+}
+
+#banner .inner h1
+{
+    margin: 0;
+}
+
+button
+{
+    border: none;
+    background: #333;
+    color: #eee;
+    padding: 10px;
+}
+
+#banner button
+{
+    letter-spacing: 1px;
+    margin-top: 100px;
+    padding: 14px 28px;
+}
+
+#banner .inner .more
+{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 200px;
+    color: #fff;
+}
+
+.sub-heading
+{
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.logo
+{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.logo a
+{
+    color: #fff;
+}
+
+h1
+{
+    color: #fff;
+    padding: 12px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.article h1
+{
+    border: none;
+    margin-left: 30px;
+}
+
+h2
+{
+    font-size: 30px;
+}
+
+h3
+{
+    font-size: 24px;
+}
+
+p
+{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.hr
+{
+    width: 100%;
+    height: 2px;
+    margin: 20px auto;
+}
+
+.green-section
+{
+    background: #089DB0;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.green-section .hr
+{
+    background: #078494;
+    width: 60%;
+}
+
+.green-section .icon-group .icon
+{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    /*background: #0D6F7C;*/
+    border: 2px solid #0D6F7C;
+    transform: rotate(45deg);
+    margin: 20px;
+}
+
+.icon-group
+{
+    margin-top: 60px;
+}
+
+.wrapper
+{
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.sub-heading
+{
+    color: #fff;
+    font-size: 18px;
+}
+
+.gray-section
+{
+    background: #555555;
+    color: #fff;
+}
+
+.gray-section .img-section
+{
+    width: 45%;
+}
+
+.img-section img
+{
+    width: 100%;
+}
+
+.gray-section .text-section
+{
+    width: 55%;
+}
+
+.article-preview > div
+{
+    float: left;
+    font-size: 0;
+}
+
+.article-preview:after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.article-preview:nth-child(odd)
+{
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.text-section
+{
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+
+.text-section h2
+{
+    margin-bottom: 20px;
+}
+
+.text-section .sub-heading
+{
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.text-section p
+{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.text-section > *
+{
+    max-width: 90%;
+}
+
+.purple-section
+{
+    padding: 80px;
+    background: #3F3965;
+    color: #fff;
+}
+
+.purple-section .heading-wrapper
+{
+    text-align: center;
+}
+
+.purple-section .hr
+{
+    background: #373259;
+    width: 60%;
+}
+
+.card
+{
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    padding: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card:first-child
+{
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+.card:nth-child(2)
+{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.card:nth-child(3)
+{
+    background-color: rgba(255, 255, 255, 0.12);
+}
+.card:nth-child(4)
+{
+    background-color: rgba(255, 255, 255, 0.16);
+}
+
+.card:nth-child(5)
+{
+    background-color: rgba(255, 255, 255, 0.20);
+}
+
+.card:nth-child(6)
+{
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+footer
+{
+    background: #333;
+    color: #fff;
+    min-height: 200px;
+    text-align: center;
+}
+
+ul.share-group
+{
+    display: block;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.share-group li
+{
+    display: inline-block;
+    padding: 10px;
+}
+
+.copy
+{
+    padding-bottom: 20px;
+}
+
+.main-wrapper
+{
+    background: #444 url("../images/banner.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.mask
+{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#sidebar
+{
+    position: fixed;
+    top: 0;
+    /*right: -300px;*/
+    right: 0;
+    -webkit-transform: translate(300px, 0);
+    -moz-transform: translate(300px, 0);
+    -ms-transform: translate(300px, 0);
+    -o-transform: translate(300px, 0);
+    transform: translate(300px, 0);
+
+    bottom: 0;
+    width: 300px;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    /*transition: right 0.5s;*/
+    transition: all 0.5s;
+}
+
+#sidebar ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar ul a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 50px;
+    width: 100%;
+    display: inline-block;
+}
+
+#sidebar ul a:hover
+{
+    background: #444;
+}
+
+.back-to-top
+{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: 1px solid #999;
+}
+
+.article .content
+{
+    background: #fefefe;
+}
+
+.content-wrapper
+{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.article-info
+{
+    font-size: 14px;
+    color: #888;
+    padding: 10px 0;
+}
+
+article
+{
+    line-height: 2;
+    padding: 15px 0;
+}
+
+.share-group a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    width: 100%;
+    display: inline-block;
+}

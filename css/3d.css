@@ -1,9 +1,48 @@
-canvas {
-    display: block;
-    margin: 30px auto;
-    margin-bottom: 150px;
-    box-shadow: -2px -2px 2px #EFEFEF, 5px 5px 5px #B9B9B9;
+html {
+        overflow:hidden; 
+        -ms-touch-action:none;
+        -ms-content-zooming:none;
+    }
+
+body {
+    position:absolute;
+    margin:0px;
+    padding:0px;
+    background:#fff;
+    width:100%;
+    height:100%;
 }
+
+#canvas {
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:#fff;
+}
+
+/*#banner
+{
+    height: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url("../imgs/6.jpg") rgba(0, 0, 0, 0.4);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}*/
+
+/*h1 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}*/
 
 .main-wrapper
 {
@@ -31,7 +70,7 @@ nav
     height: 50px;
 }
 
-.chess nav
+.photo nav
 {
     background: #373259;
 }
@@ -39,10 +78,10 @@ nav
 .banner
 {
     background: rgba(0, 0, 0, 0.01);
-    height: 150px;
+    height: 60px;
 }
 
-/*.chess .banner*/
+/*.photo .banner*/
 /*{*/
     /*height: 300px;*/
     /*background: url("../images/banner01.png") rgba(0, 0, 0, 0.4);*/
@@ -82,14 +121,14 @@ nav .logo
 
 #banner .inner
 {
-    max-width: 300px;
+    max-width: 100px;
     text-align: center;
     margin: 0 auto;
     position: relative;
     top: 160px;
 }
 
-.chess .banner .inner
+.photo .banner .inner
 {
     top: 30px;
     margin: 0 auto;
@@ -123,15 +162,18 @@ h1
 {
     color: #fff;
     padding: 12px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
     margin: 0 auto;
 }
 
-.chess h1
+.photo h1
 {
     border: none;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 30px;
 }
 
